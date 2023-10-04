@@ -171,7 +171,6 @@ def main(config):
 
         return render.Root(
             delay = int(rotationSpeed) * 1000,
-            show_full_animation = True,
             child = render.Column(
                 children = get_top_column(displayTop, now, timeColor, divisionName, renderCategory),
             ),
